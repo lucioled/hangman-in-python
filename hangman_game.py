@@ -126,7 +126,7 @@ if __name__ == "__main__":
         if " _" in word_socket:
             print("¡Perdiste!")
             drawHangman(0)
-            print("La palabra es:  " + word.upper())
+            print("La palabra era:  " + word.upper())
             playAgain()
 
         else:
